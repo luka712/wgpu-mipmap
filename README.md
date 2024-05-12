@@ -30,7 +30,7 @@ const gpuTexture = result.gpuTexture;
 
 ## VERSION
 
-# 0.1.0
+### 0.1.0
 - Initial release.
 - `wgpuGenerateTextureMipmap` function that takes `GPUDevice` and `GPUTexture` to create mipmaps.
 - `WGPUMipmapGenerator` instance can be used for more advanced scenarios. Supports `generateMipmaps` and `generateMipmapsAndCreateImages`.
