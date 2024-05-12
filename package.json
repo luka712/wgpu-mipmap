@@ -1,0 +1,23 @@
+{
+  "name": "wgpu-mipmap",
+  "private": true,
+  "description": "WebGPU Mipmap provides couple of functionalities to generate mipmaps for textures.",
+  "author": "Erkapic Luka",
+  "entry": "src/wgpu-mipmap.ts",
+  "main": "dist/wgpu-mipmap.es.js",
+  "types": "dist/wgpu-mipmap.d.ts",
+  "license": "MIT",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@webgpu/types": "^0.1.40",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-dts": "^3.9.1"
+  }
+}
